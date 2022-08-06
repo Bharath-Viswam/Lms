@@ -13,10 +13,10 @@ const MaterialDatadsa = require('./src/model/TrainerLearning');
 // const MaterialDatadsa=require('./src/model/TrainerLearning');
 
 var app = express();
-app.use(bodyParser.json());
-app.use(cors());
 const path = require('path');
 app.use(express.static('./dist/lms-frontend'));
+app.use(bodyParser.json());
+app.use(cors());
 
 // validation middle ware
 // admin
@@ -514,7 +514,7 @@ app.put('/api/updatetraprf', verifyToken, (req, res) => {
 	});
 });
 app.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + './dist/lms-frontend/index.html'));
+	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
 });
 // email to trainer
 function approvemailtrainer(id) {
