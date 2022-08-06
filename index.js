@@ -537,6 +537,7 @@ function approvemailtrainer(id) {
                <p><b>Your account for ict accademy trainer is approved.</b>
                You are now a registerd trainer of ICTK's ${trainer.tracours} course, ${trainer.tracoubtch} batches.
                Now you can login using your registerd email Id and password.</p>
+               check the below link to know more<a href="https://lms-app1232.herokuapp.com/tralogin">here</a>
                
 
                <p>Thanks for choosing ict accadamy,happy teaching and learning</p>`
@@ -572,6 +573,7 @@ function approvemail(id) {
         <p><b>Your account for ict accademy student is approved.</b>
         You belong to ${student.stucours} course and ${student.stucouid} batch.
         Now you can login using your registerd email Id and password</P>
+        check the below link <a href="https://lms-app1232.herokuapp.com/stulogin">here</a>
         
 
         <p>Thanks for choosing ICT accadamy.happy learning...</p>`
