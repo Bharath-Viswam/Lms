@@ -1,0 +1,165 @@
+{
+    "questions": [{
+            "questionText": "Which of the following is true about variable naming conventions in JavaScript?",
+            "options": [{
+                    "text": "Both 2 and 3.",
+                    "correct": true
+                },
+                {
+                    "text": "You should not use any of the JavaScript reserved keyword as variable name."
+                },
+                {
+                    "text": " JavaScript variable names should not start with a numeral (0-9)."
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which of the following is the correct syntax to print a page using JavaScript?",
+            "options": [{
+                    "text": "document.print();"
+                },
+                {
+                    "text": "navigator.print();"
+                },
+                {
+                    "text": "browser.print();"
+                },
+                {
+                    "text": " window.print();",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which built-in method returns the length of the string?",
+            "options": [{
+                    "text": "size()"
+                },
+                {
+                    "text": "length()",
+                    "correct": true
+                },
+                {
+                    "text": "index()"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": " Which built-in method returns the calling string value converted to lower case?",
+            "options": [{
+                    "text": " toLower()"
+                },
+                {
+                    "text": " toLowerCase()",
+                    "correct": true
+                },
+                {
+                    "text": " changeCase(case)"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": " Which of the following function of String object combines the text of two strings and returns a new string?",
+            "options": [{
+                    "text": "concat()",
+                    "correct": true
+                },
+                {
+                    "text": "add()"
+                },
+                {
+                    "text": "merge()"
+                },
+                {
+                    "text": "append()"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which of the following function of String object returns the characters in a string between two indexes into the string?",
+            "options": [{
+                    "text": "split()"
+                },
+                {
+                    "text": "substr()"
+                },
+                {
+                    "text": "slice()"
+                },
+                {
+                    "text": "substring()",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which of the following function of String object creates a string to be displayed in a big font as if it were in a <big> tag?",
+            "options": [{
+                    "text": "anchor()"
+                },
+                {
+                    "text": "big()",
+                    "correct": true
+                },
+                {
+                    "text": "blink()"
+                },
+                {
+                    "text": "italics()"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which of the following function of String object causes a string to be displayed as a superscript, as if it were in a <sup> tag?",
+            "options": [{
+                    "text": "sup()",
+                    "correct": true
+                },
+                {
+                    "text": "small()"
+                },
+                {
+                    "text": "strike()"
+                },
+                {
+                    "text": "sub()"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which of the following function of Array object returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found?",
+            "options": [{
+                    "text": "indexOf()",
+                    "correct": true
+                },
+                {
+                    "text": " lastIndexOf()"
+                },
+                {
+                    "text": "join()"
+                },
+                {
+                    "text": "map()"
+                }
+            ],
+            "explanation": ""
+        }
+    ]
+}

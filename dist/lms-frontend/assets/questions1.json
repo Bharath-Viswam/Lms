@@ -1,0 +1,170 @@
+{
+    "questions": [{
+            "questionText": "Choose the correct HTML element for the largest heading:",
+            "options": [{
+                    "text": "<h1",
+                    "correct": true
+                },
+                {
+                    "text": "<heading>"
+                },
+                {
+                    "text": "<head>"
+                },
+                {
+                    "text": "<h6>"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What is the correct HTML for creating a hyperlink?",
+            "options": [{
+                    "text": "<a name=https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML>W3 School</a>"
+                },
+                {
+                    "text": "<a url =https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML>W3 School</a>"
+                },
+                {
+                    "text": "<a=https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML>W3 School</a>"
+                },
+                {
+                    "text": "<a href=https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML>W3 School</a>",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which character is used to indicate an end tag?",
+            "options": [{
+                    "text": "<"
+                },
+                {
+                    "text": ">",
+                    "correct": true
+                },
+                {
+                    "text": "."
+                },
+                {
+                    "text": "/"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which of these elements are all <table> elements?",
+            "options": [{
+                    "text": "<table><body><thead>"
+                },
+                {
+                    "text": "<tablle><tr><td>",
+                    "correct": true
+                },
+                {
+                    "text": "<table><tm><th>"
+                },
+                {
+                    "text": "<tbody><table><a>"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "How can you make a numbered list?",
+            "options": [{
+                    "text": "<ol>",
+                    "correct": true
+                },
+                {
+                    "text": "<ul>"
+                },
+                {
+                    "text": "<dl>"
+                },
+                {
+                    "text": "<list>"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What is the correct HTML for making a checkbox?",
+            "options": [{
+                    "text": "<check>"
+                },
+                {
+                    "text": "<checkbox>"
+                },
+                {
+                    "text": "<input type=check>"
+                },
+                {
+                    "text": "<input text=checkbox>",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What is the correct HTML for making a text input field?",
+            "options": [{
+                    "text": "<textinput type=text>"
+                },
+                {
+                    "text": "<input type=text>",
+                    "correct": true
+                },
+                {
+                    "text": "<input type=textfield>"
+                },
+                {
+                    "text": "<textfield"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which HTML element defines the title of a document?",
+
+           
+           
+            "options": [{
+                    "text": "<title>",
+                    "correct": true
+                },
+                {
+                    "text": "<head>"
+                },
+                {
+                    "text": "<body>"
+                },
+                {
+                    "text": "<meta>"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which HTML element is used to specify a footer for a document or section?",
+
+            
+            "options": [{
+                    "text": "<footer>",
+                    "correct": true
+                },
+                {
+                    "text": "<bottom>"
+                },
+                {
+                    "text": "<end>"
+                },
+                {
+                    "text": "<section>"
+                }
+            ],
+            "explanation": ""
+        }
+    ]
+}

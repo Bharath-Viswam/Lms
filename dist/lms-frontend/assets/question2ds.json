@@ -1,0 +1,166 @@
+{
+    "questions": [{
+            "questionText": "___________ Analysis is used to analyze a system in terms of its requirements to identify its impact on customers' satisfaction",
+            "options": [{
+                    "text": "Kano",
+                    "correct": true
+                },
+                {
+                    "text": "Paretto"
+                },
+                {
+                    "text": "RootCause "
+                },
+                {
+                    "text": "Impact"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Leading analyst firm Gartner defines Big Data from three aspects, all starting with the letter V. Which of these are not a part of their consideration of big data?",
+            "options": [{
+                    "text": "velocity"
+                },
+                {
+                    "text": "variety"
+                },
+                {
+                    "text": "volume"
+                },
+                {
+                    "text": "value ",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "A free, Java-based programming framework that supports the processing of large data sets in a distributed computing environment",
+            "options": [{
+                    "text": "Python"
+                },
+                {
+                    "text": "Hadoop",
+                    "correct": true
+                },
+                {
+                    "text": "R"
+                },
+                {
+                    "text": "Apache"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "What does SAAS stand for? ",
+            "options": [{
+                    "text": "System Aerosurface Actuator Simulation "
+                },
+                {
+                    "text": "Software as a Service ",
+                    "correct": true
+                },
+                {
+                    "text": "Systems as a Service "
+                },
+                {
+                    "text": "Software acting as Service"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Last summer, Splunk announced a new product to search, access and report on Hadoop data sets. What is this product called? ",
+            "options": [{
+                    "text": "Hunk",
+                    "correct": true
+                },
+                {
+                    "text": "Splunk Storm"
+                },
+                {
+                    "text": "Splunk Cloud"
+                },
+                {
+                    "text": "MongoDB"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "The branch of data mining concerned with the prediction of future probabilities and trends. ",
+            "options": [{
+                    "text": "Big Data Analytics"
+                },
+                {
+                    "text": "In-memory Analytics"
+                },
+                {
+                    "text": "Predictive Analytics"
+                },
+                {
+                    "text": "Behavioral Analytics",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "According to a very recent Jaspersoft Survey, what is the most popular big data store?",
+            "options": [{
+                    "text": "Hadoop HDFS"
+                },
+                {
+                    "text": "Relational Databases",
+                    "correct": true
+                },
+                {
+                    "text": "Hadoop"
+                },
+                {
+                    "text": "MongoDB"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Where did Hadoop get its name from?",
+            "options": [{
+                    "text": "Toy elephant",
+                    "correct": true
+                },
+                {
+                    "text": "A fictional character from literature"
+                },
+                {
+                    "text":  "It’s an acronym"
+                },
+                {
+                    "text": "It's a synonym of Data"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "The science of examining raw data with the purpose of drawing conclusions about that information.",
+            "options": [{
+                    "text": "Data Analytics",
+                    "correct": true
+                },
+                {
+                    "text": "In-memory Analytics"
+                    
+                },
+                {
+                    "text": "Descriptive Analytics"
+                },
+                {
+                    "text": "Predictive Analytics"
+                }
+            ],
+            "explanation": ""
+        }
+    ]
+}
