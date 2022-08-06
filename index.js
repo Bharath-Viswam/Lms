@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 const jwt = require('jsonwebtoken');
@@ -13,7 +14,7 @@ const MaterialDatadsa = require('./src/model/TrainerLearning');
 // const MaterialDatadsa=require('./src/model/TrainerLearning');
 
 var app = express();
-const path = require('path');
+
 app.use(express.static('./dist/lms-frontend'));
 app.use(bodyParser.json());
 app.use(cors());
@@ -513,7 +514,7 @@ app.put('/api/updatetraprf', verifyToken, (req, res) => {
 		res.send();
 	});
 });
-app.get('/', function(req, res) {
+app.get('/*', function(req, res) {
 	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
 });
 // email to trainer
