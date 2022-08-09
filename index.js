@@ -14,10 +14,10 @@ const MaterialDatadsa = require('./src/model/TrainerLearning');
 // const MaterialDatadsa=require('./src/model/TrainerLearning');
 
 var app = express();
-
+app.use(cors());
 app.use(express.static('./dist/lms-frontend'));
 app.use(bodyParser.json());
-app.use(cors());
+
 
 // validation middle ware
 // admin
