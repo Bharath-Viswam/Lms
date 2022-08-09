@@ -14,10 +14,10 @@ const MaterialDatadsa = require('./src/model/TrainerLearning');
 // const MaterialDatadsa=require('./src/model/TrainerLearning');
 
 var app = express();
-
+app.use(cors());
 app.use(express.static('./dist/lms-frontend'));
 app.use(bodyParser.json());
-app.use(cors());
+
 
 // validation middle ware
 // admin
@@ -514,9 +514,7 @@ app.put('/api/updatetraprf', verifyToken, (req, res) => {
 		res.send();
 	});
 });
-app.get('/*', function(req, res) {
-	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
-});
+
 // email to trainer
 function approvemailtrainer(id) {
 	TrainerData.findOne({ _id: id }).then((trainer) => {
@@ -589,7 +587,9 @@ function approvemail(id) {
 		});
 	});
 }
-
+app.get('/*', function(req, res) {
+	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
+});
 app.listen(process.env.PORT || 3000, () => {
 	console.log('server is ready');
 });
