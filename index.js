@@ -588,7 +588,7 @@ function approvemail(id) {
 	});
 }
 app.get('/*', function(req, res) {
-	res.sendFile(path.join(__dirname + '/dist//lms-frontend/index.html'));
+	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
 });
 app.listen(process.env.PORT || 3000, () => {
 	console.log('server is ready');
