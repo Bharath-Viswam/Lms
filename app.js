@@ -514,7 +514,9 @@ app.put('/api/updatetraprf', verifyToken, (req, res) => {
 		res.send();
 	});
 });
-
+app.get('/*', function(req, res) {
+	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
+});
 // email to trainer
 function approvemailtrainer(id) {
 	TrainerData.findOne({ _id: id }).then((trainer) => {
@@ -587,9 +589,7 @@ function approvemail(id) {
 		});
 	});
 }
-app.get('/*', function(req, res) {
-	res.sendFile(path.join(__dirname + '/dist/lms-frontend/index.html'));
-});
+
 app.listen(process.env.PORT || 3000, () => {
 	console.log('server is ready');
 });
